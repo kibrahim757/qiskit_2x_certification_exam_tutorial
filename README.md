@@ -79,25 +79,56 @@ Understanding and utilizing OpenQASM for quantum programming.
 ## 🚀 Getting Started
 
 ### Prerequisites
-```bash
-# Python 3.8 or higher
-python --version
+- Python 3.9 or higher
+- pip package manager
+- Git (for cloning the repository)
 
-# Install Qiskit and dependencies
-pip install qiskit qiskit-aer matplotlib jupyter
-```
+### Installation
 
-### Running the Notebooks
+#### Option 1: Using Virtual Environment (Recommended)
+
+Creating a virtual environment ensures isolated dependencies and reproducibility:
+
 ```bash
 # Clone the repository
 git clone https://github.com/kibrahim757/qiskit_certification_examples.git
 cd qiskit_certification_examples
 
+# Create a virtual environment
+python -m venv qiskit_env
+
+# Activate the virtual environment
+# On macOS/Linux:
+source qiskit_env/bin/activate
+# On Windows:
+# qiskit_env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
 # Launch Jupyter Notebook
 jupyter notebook
 ```
 
-Navigate to any section and open the desired notebook to begin learning.
+#### Option 2: Direct Installation
+
+If you prefer to install packages globally:
+
+```bash
+# Clone the repository
+git clone https://github.com/kibrahim757/qiskit_certification_examples.git
+cd qiskit_certification_examples
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+```
+
+### Running the Notebooks
+
+Once Jupyter is running, navigate to any section folder and open the desired notebook. All notebooks are self-contained and can be run cell-by-cell.
 
 ## 📖 Learning Path
 
@@ -110,6 +141,7 @@ For optimal learning, follow the sections in order:
 
 ## 🔧 Features
 
+- **Environment Management**: Includes `requirements.txt` for easy dependency installation and virtual environment support
 - **Offline-Ready**: Most notebooks work without IBM Quantum cloud access, using local simulators
 - **Comprehensive Coverage**: Aligned with Qiskit certification exam topics
 - **Practical Examples**: Hands-on code demonstrations with detailed explanations

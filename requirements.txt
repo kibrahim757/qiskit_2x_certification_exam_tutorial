@@ -1,0 +1,23 @@
+# Core Qiskit packages for v2.X
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+
+# Visualization dependencies
+matplotlib>=3.7.0
+pylatexenc>=2.10
+
+# Jupyter environment
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional: For REST API examples
+requests>=2.31.0
+
+# Optional: For enhanced visualizations
+seaborn>=0.12.0
+pillow>=10.0.0
