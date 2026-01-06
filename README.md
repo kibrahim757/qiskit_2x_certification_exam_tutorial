@@ -5,7 +5,7 @@ A comprehensive collection of Jupyter notebooks covering the essential topics fo
 ## 👥 QAMP 2025 Team
 
 **Mentees**:
-- [Khaled Ibrahim](https://github.com/kibrahim757)
+- [Karim Ibrahim](https://github.com/kibrahim757)
 - [Shek Lun Leung](https://github.com/alanspace)
 
 **Mentors**:
