@@ -1,6 +1,6 @@
 # Core Qiskit packages for v2.X
-qiskit>=1.0.0
-qiskit-aer>=0.13.0
+qiskit>=2.3.0
+qiskit-aer>=0.17.2
 
 # Visualization dependencies
 matplotlib>=3.7.0
