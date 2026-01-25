@@ -1,4 +1,4 @@
-# Qiskit Certification Examples
+# Qiskit Certification Exam Tutorial
 
 A comprehensive collection of Jupyter notebooks covering the essential topics for Qiskit certification and quantum computing development with IBM's Qiskit framework.
 
