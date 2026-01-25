@@ -91,8 +91,8 @@ Creating a virtual environment ensures isolated dependencies and reproducibility
 
 ```bash
 # Clone the repository
-git clone https://github.com/kibrahim757/qiskit_certification_examples.git
-cd qiskit_certification_examples
+git clone https://github.com/kibrahim757/qiskit_2x_certification_exam_tutorial.git
+cd qiskit_2x_certification_exam_tutorial
 
 # Create a virtual environment
 python -m venv qiskit_env
@@ -116,8 +116,8 @@ If you prefer to install packages globally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/kibrahim757/qiskit_certification_examples.git
-cd qiskit_certification_examples
+git clone https://github.com/kibrahim757/qiskit_2x_certification_exam_tutorial.git
+cd qiskit_2x_certification_exam_tutorial
 
 # Install dependencies
 pip install -r requirements.txt
