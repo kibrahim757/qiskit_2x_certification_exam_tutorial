@@ -1,6 +1,7 @@
 # Core Qiskit packages for v2.X
 qiskit>=2.3.0
 qiskit-aer>=0.17.2
+qiskit-ibm-runtime>=0.45.0
 
 # Visualization dependencies
 matplotlib>=3.7.0
