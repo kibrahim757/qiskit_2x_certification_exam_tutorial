@@ -2,6 +2,7 @@
 qiskit>=2.3.0
 qiskit-aer>=0.17.2
 qiskit-ibm-runtime>=0.45.0
+qiskit-qasm3-import
 
 # Visualization dependencies
 matplotlib>=3.7.0
